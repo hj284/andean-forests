@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  </head>
 
     <header class="navbar-inverse" role="banner">
-      <div class="container">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,7 +22,7 @@
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a href="cloudforest.html">Cloud Forest</a></li>
                     <li><a href="river.html">Andean River</a></li>
-                    <li><a href="amazon.html">Amazon Rainforest</a></li>
+                    <li><a href="amazon.html">Amazonia</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -39,27 +39,48 @@
       </div>
     </header>
 
-    <div class="page">
-      <h1>About this site</h1>
-      <p>
-        I am a student at Georgetown McDonough passionate about recording nature ambiances. The sounds showcased on this site were captured on location in Ecuador and Peru in high-definition audio. For more of my work, please see the links below or contact me via email.
-    </div>
-    <body>
-      <header>
-        <title>Author links</title>
-        <nav>
-          <ul>
-            <li><a href="https://www.youtube.com/channel/UCTq7oqhUKeeJMQ-f3vnOtVQ">YouTube</a></li>
-            <li><a href="https://www.instagram.com/henryjohnsondc/?hl=en">Instagram</a></li>
-            <li><a href="mailto:hj284@georgetown.edu"> Email</a></li>
-          </ul>
-        </nav>
-      </header>
+    <div class="background_image">
+      <h1 style="text-align:center; color: white">About this site</h1>
+        <p style="text-align:center">
+          I am a student at Georgetown McDonough passionate about recording nature ambiances. The sounds showcased on this site were captured on location in Ecuador and Peru in high-definition audio. For more of my work, please see the links below or contact me via email.
+          <body>
+            <header>
+              <title>Author links</title>
+              <nav>
+                <ul>
+                  <li><a href="https://www.youtube.com/channel/UCTq7oqhUKeeJMQ-f3vnOtVQ">YouTube</a></li>
+                  <li><a href="https://www.instagram.com/henryjohnsondc/?hl=en">Instagram</a></li>
+                  <li><a href="mailto:hj284@georgetown.edu"> Email</a></li>
+                </ul>
+              </nav>
+            </header>
+        </div>
 
-    <footer>
-      <p>&copy; 2022 Henry Johnson |
-        <a href="https://hj284.github.io/andean-forests">source code</a>
-      </p>
-    </footer>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .background_image {
+        background-image: url('./images/flower.jpg');
+        background-size: cover;
+        height: 100vh;
+        vertical-align: middle;
+      }
+    </style>
+
+      <footer>
+        <p>&copy; 2022 Henry Johnson |
+          <a href="https://hj284.github.io/andean-forests">source code</a>
+        </p>
+      </footer>
+      <style>
+        footer {
+          text-align: center;
+          padding: 1px;
+          background-color: black;
+          color: black;
+        }
+        </style>
   </body>
 </html>

@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  </head>
     
     <header class="navbar-inverse" role="banner">
-      <div class="container">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,7 +23,7 @@
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a href="cloudforest.html">Cloud Forest</a></li>
                     <li><a href="river.html">Andean River</a></li>
-                    <li><a href="amazon.html">Amazon Rainforest</a></li>
+                    <li><a href="amazon.html">Amazonia</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -40,33 +40,40 @@
       </div>
     </header>
 
-    <video autoplay muted loop id="myVideo">
-      <source src="cloudforest.mp4" type="video/mp4">
-    </video>
+    <div class="background_image">
+      <h1 style="text-align:center">The Forests of the Andes: A Cascade of Life</h1>
+        <p style="text-align:center">
+          The Andes of South America contain the greatest levels of biodiversity on the planet. This site showcases the soundscapes of the zone where the cool cloud forests meet the steamy Amazon. Please make sure your volume is turned on, then navigate through the three ecozones above.
+        </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .background_image {
+        background-image: url('./images/clouds.ARW.jpg');
+        background-size: cover;
+        height: 100vh;
+        vertical-align: middle;
+      }
+    </style>
 
     <iframe style="display: none;" width="560" height="315" src="https://www.youtube.com/embed/U1pHzfegewQ?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <div class="page">
-      <h1 style="text-align:center"> The Forests of the Andes: A Cascade of Life</h1>
-      <p style="text-align:center"> The Andes of South America contain the greatest levels of biodiversity on the planet. This site showcases the soundscapes of the zone where the cool cloud forests meet the steamy Amazon. Please make sure your volume is turned on, and navigate through the three ecozones above.</p>
-
-    </style>
-    </div>
-
     <footer>
-      <p>&copy; 2022 Henry Johnson | 
+      <p>&copy; 2022 Henry Johnson |
         <a href="https://hj284.github.io/andean-forests">source code</a>
       </p>
     </footer>
-
-    <script type="text/javascript">
-
-        //
-        // FYI: this is JavaScript!
-        //
-        var myMessage = "Hello World"
-        console.log(myMessage)
-
+    <style>
+      footer {
+        text-align: center;
+        padding: 1px;
+        background-color: black;
+        color: black;
+      }
+      </style>
 
     </script>
   </body>
