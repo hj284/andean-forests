@@ -6,8 +6,5 @@ Ambiances consist of both visual and audio media, so please make sure your volum
 The "About" section describes the purpose of the site and links to other content produced by the author.
 
 This website was created by Henry Johnson as a project for the class Internet Business Technologies (OPIM 668) by Professor Michael Rossetti at Georgetown's McDonough School of Business. 
-<<<<<<< HEAD
 
 Please see the "planning" photo under "images" for an outline of the initial structure.
-=======
->>>>>>> parent of dfda732 (Final edits)
